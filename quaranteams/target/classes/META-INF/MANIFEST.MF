@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Implementation-Title: quaranteams
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Bobby
+Implementation-Vendor-Id: com.hackfest
+Class-Path: spring-boot-starter-web-1.5.1.RELEASE.jar spring-boot-star
+ ter-1.5.1.RELEASE.jar spring-boot-1.5.1.RELEASE.jar spring-boot-autoc
+ onfigure-1.5.1.RELEASE.jar spring-boot-starter-logging-1.5.1.RELEASE.
+ jar logback-classic-1.1.9.jar logback-core-1.1.9.jar jcl-over-slf4j-1
+ .7.22.jar jul-to-slf4j-1.7.22.jar log4j-over-slf4j-1.7.22.jar snakeya
+ ml-1.17.jar spring-boot-starter-tomcat-1.5.1.RELEASE.jar tomcat-embed
+ -core-8.5.11.jar tomcat-embed-el-8.5.11.jar tomcat-embed-websocket-8.
+ 5.11.jar hibernate-validator-5.3.4.Final.jar validation-api-1.1.0.Fin
+ al.jar jboss-logging-3.3.0.Final.jar classmate-1.3.3.jar jackson-data
+ bind-2.8.6.jar jackson-annotations-2.8.0.jar jackson-core-2.8.6.jar s
+ pring-web-4.3.6.RELEASE.jar spring-aop-4.3.6.RELEASE.jar spring-beans
+ -4.3.6.RELEASE.jar spring-context-4.3.6.RELEASE.jar spring-webmvc-4.3
+ .6.RELEASE.jar spring-expression-4.3.6.RELEASE.jar spring-boot-starte
+ r-thymeleaf-1.5.1.RELEASE.jar thymeleaf-spring4-2.1.5.RELEASE.jar thy
+ meleaf-2.1.5.RELEASE.jar ognl-3.0.8.jar javassist-3.21.0-GA.jar unbes
+ cape-1.1.0.RELEASE.jar slf4j-api-1.7.22.jar thymeleaf-layout-dialect-
+ 1.4.0.jar groovy-2.4.7.jar spring-core-4.3.6.RELEASE.jar commons-io-2
+ .6.jar aws-java-sdk-dynamodb-1.11.815.jar aws-java-sdk-s3-1.11.815.ja
+ r aws-java-sdk-kms-1.11.815.jar aws-java-sdk-core-1.11.815.jar common
+ s-logging-1.1.3.jar httpclient-4.5.2.jar httpcore-4.4.6.jar commons-c
+ odec-1.10.jar ion-java-1.0.2.jar jackson-dataformat-cbor-2.8.6.jar jo
+ da-time-2.9.7.jar jmespath-java-1.11.815.jar lombok-1.16.12.jar
+Build-Jdk: 1.8.0_91
+Implementation-URL: http://projects.spring.io/spring-boot/quaranteams/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
