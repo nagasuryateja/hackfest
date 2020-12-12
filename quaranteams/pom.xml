@@ -76,15 +76,5 @@
 
 		</plugins>
 	</build>
-	<repositories>
-    		<repository>
-      			<id>maven-public</id>
-      			<url>https://artifacts.aa.com/artifactory/maven-public/</url>
-   	 	</repository>
-		<repository>
-      			<id>nexus-snapshots</id>
-      			<url>https://artifacts.aa.com/artifactory/snapshots/</url>
-   	 	</repository>  	 	
-   	 	
-  	</repositories>
+	
 </project>
