@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.hackfest.quaranteams.entity.BankDetails;
 import com.hackfest.quaranteams.entity.BasicDetails;
+import com.hackfest.quaranteams.entity.InputData;
 import com.hackfest.quaranteams.entity.Person;
 import com.hackfest.quaranteams.repository.VerificationRepository;
 
@@ -29,10 +30,10 @@ public class VerificationController {
 		return verificationRepository.addUserDetails(details);
 	}
 	
-	@GetMapping("/getUserDetails")
-	public BasicDetails getPerson(@RequestParam String aadhar,@RequestParam String pancard){
+	@PostMapping("/fetchUserDetails")
+	public BasicDetails getPerson(@RequestBody BasicDetails details){
 		System.out.println("in get person method");
-		return verificationRepository.fetchUserDetails(aadhar, pancard);
+		return verificationRepository.fetchUserDetails(details.getAadhar(), details.getPancard());
 	}
 
 }

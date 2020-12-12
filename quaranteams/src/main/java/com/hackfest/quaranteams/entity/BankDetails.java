@@ -12,7 +12,9 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class BankDetails {
-	 @DynamoDBAttribute
+	@DynamoDBAttribute
+	private String userName; 
+	@DynamoDBAttribute
 	private String bankName;
 	 @DynamoDBAttribute
 	private String branch;
