@@ -1,0 +1,27 @@
+Sample URL:
+http://localhost:8080/userdetails/getUserDetails/123456789012
+
+http://localhost:8080/userdetails/saveUserDetails
+Sample Request:
+{
+    "aadhar": "123456789012",
+    "pancard": "QWERT1234Y",
+    "name": "sample",
+    "bankDetails": [
+        {
+            "bankName": "SBI",
+            "branch": "PTP",
+            "ifsc": "SBIN0001234"
+        },
+        {
+            "bankName": "HDFC",
+            "branch": "KKD",
+            "ifsc": "HDFC0001234"
+        },
+        {
+            "bankName": "ICICI",
+            "branch": "HYD",
+            "ifsc": "ICIC0001234"
+        }
+    ]
+}
