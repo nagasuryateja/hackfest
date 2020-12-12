@@ -25,5 +25,7 @@ public class BasicDetails {
     private String name;
     @DynamoDBAttribute
     private List<BankDetails> bankDetails;
+    
+    private String error;
 
 }
