@@ -11,14 +11,12 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class BankDetails {
+public class CaptialMarketDetails {
 	@DynamoDBAttribute
-	private String accountNumber; 
+	private String dpId; 
 	@DynamoDBAttribute
-	private String bankName;
+	private String isin;
 	 @DynamoDBAttribute
-	private String branch;
-	 @DynamoDBAttribute
-	private String ifsc;
+	private String assetClass;
 
 }

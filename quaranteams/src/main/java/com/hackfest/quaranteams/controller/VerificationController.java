@@ -30,10 +30,16 @@ public class VerificationController {
 		return verificationRepository.addUserDetails(details);
 	}
 	
-	@PostMapping("/fetchUserDetails")
-	public BasicDetails getPerson(@RequestBody BasicDetails details){
+	@GetMapping("/getUserDetails")
+	public BasicDetails getPerson(@RequestParam String aadhar,@RequestParam String pancard){
 		System.out.println("in get person method");
-		return verificationRepository.fetchUserDetails(details.getAadhar(), details.getPancard());
+		return verificationRepository.fetchUserDetails(aadhar, pancard);
+	}
+	
+	@PostMapping("/editUserDetails")
+	public String editPerson(@RequestBody BasicDetails details){
+		System.out.println("in edit person method");
+		return verificationRepository.editUserDetails(details);
 	}
 
 }

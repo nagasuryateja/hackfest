@@ -14,7 +14,7 @@ import java.util.List;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@DynamoDBTable(tableName = "UserDetails")
+@DynamoDBTable(tableName = "UserInfo")
 public class BasicDetails {
 	
 	@DynamoDBHashKey  (attributeName = "aadhar")
@@ -23,6 +23,10 @@ public class BasicDetails {
     private String pancard;
     @DynamoDBAttribute
     private List<BankDetails> bankDetails;
+    @DynamoDBAttribute
+    private List<InsuranceDetails> insuranceDetails;
+    @DynamoDBAttribute
+    private List<CaptialMarketDetails> captialMarketDetails;
     
     private String error;
 
